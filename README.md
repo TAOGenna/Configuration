@@ -23,7 +23,7 @@ claude plugin install taogenna@configuration
 
 | Plugin | Skills | Source |
 |---|---|---|
-| `taogenna` | `claude-sessions`: inspect past Claude Code session transcripts with jq | [`skills/`](skills/) in this repo |
+| `taogenna` | `claude-sessions`: inspect past Claude Code session transcripts with jq<br>`hunting-big-bets`: find, build and pitch the one highest-impact bet at a company | [`skills/`](skills/) in this repo |
 | `mattpocock-skills` | 27 engineering and productivity skills: `tdd`, `code-review`, `grill-me`, `to-spec`, `handoff`, … | [mattpocock/skills](https://github.com/mattpocock/skills) |
 | `janestreet-skills` | `socratic-tutor`: teaches a topic to mastery with the Socratic method | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) |
 
