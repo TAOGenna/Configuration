@@ -1,0 +1,10 @@
+{
+  "name": "taogenna",
+  "version": "0.1.0",
+  "description": "Personal skills. Installing it also installs mattpocock-skills and janestreet-skills.",
+  "author": {
+    "name": "TAOGenna",
+    "url": "https://github.com/TAOGenna"
+  },
+  "dependencies": ["mattpocock-skills", "janestreet-skills"]
+}

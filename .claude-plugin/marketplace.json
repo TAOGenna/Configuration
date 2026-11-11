@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "configuration",
+  "description": "Personal Claude Code skills, plus referenced third-party skill sets.",
+  "owner": {
+    "name": "TAOGenna",
+    "url": "https://github.com/TAOGenna"
+  },
+  "plugins": [
+    {
+      "name": "taogenna",
+      "description": "Personal skills. Installing it also installs mattpocock-skills and janestreet-skills.",
+      "source": "./"
+    },
+    {
+      "name": "mattpocock-skills",
+      "description": "Matt Pocock's engineering skills, fetched from github.com/mattpocock/skills.",
+      "source": { "source": "github", "repo": "mattpocock/skills" }
+    },
+    {
+      "name": "janestreet-skills",
+      "description": "Jane Street's agent skills (socratic-tutor), fetched from github.com/janestreet/agent_skills.",
+      "source": { "source": "github", "repo": "janestreet/agent_skills" },
+      "skills": "."
+    }
+  ]
+}
